@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <h1>Formulário de Cadastro dos Estudantes</h1>
+
+    <form>
+        <div class="container">
+            <!-- Forms do Estudante -->
+            <fieldset>
+                <legend>Dados do Estudante</legend>
+                
+                <div>
+                    <label>Primeiro nome:</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label>Último nome:</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label>E-mail:</label>
+                    <input type="email">
+                </div>
+
+                <div>
+                    <label>Telefone:</label>
+                    <input type="tel">
+                </div>
+
+                <div>
+                    <label>Whatsapp:</label>
+                    <input type="checkbox">
+                </div>
+
+                <div>
+                    <label>Idade:</label>
+                    <input type="number" min="10" max="100">
+                </div>
+            </fieldset>
+            
+            <!-- Forms do Responsável -->
+            <fieldset>
+                <legend>Dados do Responsável</legend>
+
+                <div>
+                    <label>Primeiro nome:</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label>Último nome:</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label>E-mail:</label>
+                    <input type="email">
+                </div>
+
+                <div>
+                    <label>Telefone:</label>
+                    <input type="tel">
+                </div>
+
+                <div>
+                    <label>Whatsapp:</label>
+                    <input type="checkbox">
+                </div>
+
+                <div>
+                    <label>Parentesco:</label>
+                    <select>
+                        <option>--Selecione--</option>
+                        <option>Pai</option>
+                        <option>Mãe</option>
+                        <option>Responsável</option>
+                    </select>
+                </div>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
