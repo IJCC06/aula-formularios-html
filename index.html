@@ -87,6 +87,98 @@
                 </div>
             </fieldset>
         </div>
+
+        <div class="container">
+            <fieldset>
+                <legend>Dados do Endereço</legend>
+
+                <div>
+                    <label>CEP:</label>
+                    <input onkeydown="buscar(event)" id="cep" type="text" placeholder="Aperte Enter para Buscar">
+                </div>
+
+                <div>
+                    <label>Logradouro:</label>
+                    <input id="logradouro" type="text">
+                </div>
+
+                <div>
+                    <label>Número:</label>
+                    <input type="number">
+                </div>
+
+                <div>
+                    <label>Bairro:</label>
+                    <input id="bairro" type="text">
+                </div>
+
+                <div>
+                    <label>Cidade</label>
+                    <input id="cidade" type="text">
+                </div>
+
+                <div>
+                    <label>Estado</label>
+                    <input id="estado" type="text">
+                </div>
+
+                <div>
+                    <label>UF:</label>
+                    <input id="uf" type="text">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados do Curso</legend>
+
+                <div>
+                    <label>Nome:</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label>Período:</label>
+                    <select>
+                        <option>--Selecione--</option>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                        <option>Integral</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Tipo:</label>
+                    <select>
+                        <option>--Selecione--</option>
+                        <option>Técnico</option>
+                        <option>Aprendizagem</option>
+                        <option>FIC</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Modalidade:</label>
+                    <select>
+                        <option>--Selecione--</option>
+                        <option>Presencial</option>
+                        <option>Semi Presencial</option>
+                        <option>EAD</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Observações</label>
+                    <textarea rows="4" cols="20"></textarea>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="container botoes">
+            <button type="submit" onclick="cadastrar(event)">Cadastrar Informações</button>
+            <button type="reset">Limpar Formulário</button>
+        </div>
     </form>
 </body>
+<script src="index.js"></script>
 </html>
